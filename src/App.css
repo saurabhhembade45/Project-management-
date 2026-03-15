@@ -46,8 +46,18 @@ html, body, #root {
 }
 
 body {
-  background-color: #f5f7fb;
-  font-family: Inter, Arial, sans-serif;
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+
+  /* Zoho workspace background */
+  background-color: #f7f7f9;
+
+  /* subtle dotted pattern */
+  background-image: radial-gradient(
+    rgba(0, 0, 0, 0.03) 1px,
+    transparent 1px
+  );
+  background-size: 18px 18px;
 }
 html, body, #root {
   height: 100%;
